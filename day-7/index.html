@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6" style="height: 200px; border: 0px solid green;">
+            <div class="col-sm-4" style="height: 200px; border: 0px solid green;">
                 <hr/>
                 <form action="demo.html" method="post" >
                 <div class="form-group">
@@ -74,7 +74,96 @@
                 </form>
 
             </div>
+            <div class="col-sm-8">
+                <hr/>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">First Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="first_name" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Last Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="last_name" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Email </label>
+                    <div class="col-sm-9">
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Password </label>
+                    <div class="col-sm-9">
+                        <input type="password" name="password" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3"> Phone Number</label>
+                    <div class="col-sm-9">
+                        <input type="number" name="Phone" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Date of Birth</label>
+                    <div class="col-sm-9">
+                        <input type="date" name="date_of_birth" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Gender</label>
+                    <div class="col-sm-9">
+                        <label><input type="radio" name="gender" value="male">Male</label>
+                        <label><input type="radio" name="gender" value="female">Female</label>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Address</label>
+                    <div class="col-sm-9">
+                        <textarea name="address" class="form-control" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Distirc Name </label>
+                    <div class="col-sm-9">
+                        <select  name="district_name" class="form-control">
+                            <option>---Select Distirct Name</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Noakhali">Nokhali</option>
+                            <option value="Comilla">Comilla</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Barisal">Barisal</option>
+                            <option value="Rangpur">Rangpur</option>
+                            <option value="Rajshai">Dhaka</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Image</label>
+                    <div class="col-sm-9">
+                        <input type="file" name="image"  multiple accept="image/*"/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3"></label>
+                    <div class="col-sm-9">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" name="agree" class="form-check-input">
+                                I am agree with ur all condition.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                <input type="submit" name="btn" class="btn btn-success btn btn-block">
+            </div>
+            </div>
+
         </div>
+
     </div>
 <script src="js/bootstrap.js"/>
 </body>
