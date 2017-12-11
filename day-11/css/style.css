@@ -1,0 +1,9 @@
+.carousel-item-padding{
+    padding:100px 250px;
+    text-align: center;
+}
+.add-section{
+    background: url("../img/21432532 (5).jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
