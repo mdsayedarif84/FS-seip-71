@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title></title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+
+    </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" style="height: 200px; border: 0px solid green;">
+                <hr/>
+                <form action="" method="post" id="registration" >
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="first_name" id="firstName" class="form-control">
+                    <span id="firstNameError" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" name="last_name" class="form-control" id="lastName">
+                    <span id="lastNameError" class="text-danger"></span>
+                </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div>
+                            <label>
+                                <input type="radio" name="gn" vlaue="male">Male
+                            </label>
+                            <label>
+                                <input type="radio" name="gn" vlaue="female">Female
+                            </label>
+                            <span id="genderError" class="text-danger"></span>
+
+                        </div>
+
+                    </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" name="email" class="form-control" id="emailAddress">
+                    <span id="emailError" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control" id="password">
+                    <span id="passwordError" class="text-danger"></span>
+                </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="btn">Show Password
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" name="confirm_password" class="form-control" id="confirm_password">
+                        <span id="confirmPasswordError"></span>
+                    </div>
+                <div class="form-group">
+                    <label>Distirc Name</label>
+                    <select  name="district_name" class="form-control" id="districtName">
+                        <option value=" ">---Select Distirct Name</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Noakhali">Nokhali</option>
+                        <option value="Comilla">Comilla</option>
+                        <option value="Narayanganj">Narayanganj</option>
+                        <option value="Barisal">Barisal</option>
+                        <option value="Rangpur">Rangpur</option>
+                        <option value="Rajshai">Dhaka</option>
+                    </select>
+                    <span id="districtNameError"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="btn" class="btn btn-success btn btn-block" value="Save" id="btn">
+                </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/my-script.js"></script>
+    <script src="js/bootstrap.js"/>
+</body>
+</html>

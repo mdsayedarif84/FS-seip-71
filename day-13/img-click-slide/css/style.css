@@ -1,0 +1,10 @@
+.main_img{
+    height: 450px;
+    width: 450px;
+    border: 2px solid rebeccapurple;
+}
+.sub_img{
+    height: 100px;
+    width: 107px;
+    border: 2px solid goldenrod;s
+}
