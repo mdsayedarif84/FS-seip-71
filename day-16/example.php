@@ -9,6 +9,6 @@ class Example
         echo 'In Add';
     }
     function hello(){
-        echo 'In hello';
+        echo 'FS Fariy Islam';
     }
 }
