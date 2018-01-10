@@ -125,6 +125,7 @@ $('#confirm_password').keyup(function () {
     checkConfirmPassword();
 
 });
+
 function checkDistrictName() {
     var districtName= $('#districtName').val();
     if(districtName == ' '){
